@@ -143,7 +143,6 @@ void collectChords(String filename) {
 
     int previousSpaces = 0;
 
-    // Check if the number of chords and spaces are equal
     if (chordList.length == spacesList.length) {
       for (int i = 0; i < chordList.length; i++) {
         String value1 = chordList[i];
